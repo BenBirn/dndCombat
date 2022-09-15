@@ -18,9 +18,13 @@ containing this info, you can do this through command line arguments. The format
 Enter Group 1's files first followed by Group 2's. The format of these character files must be:
 
 > \[character name]
-> \[class] \[level] 
+>
+> \[class] \[level]
+>
 > \[stats] (each seperated by a space)
+>
 > \[HP] \[AC] \[speed]
+>
 > \[weapon]
 
 Using this method allows you to skip having to enter each character's info each time you run the program.
