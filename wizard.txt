@@ -1,0 +1,5 @@
+Wizard
+wizard 20
+10 10 10 10 10 10
+25 11 30
+quarterstaff

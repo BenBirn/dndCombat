@@ -9,13 +9,10 @@ and math for you!
 > Note: When prompted for multiple pieces of info, seperate each with a space
 
 ## Running the Program
-After you've made the prgram (`make Combat`), you can run it with no arguments (`./Combat`) and
-it will ask you to enter information for each character manually. If you would rather input files
-containing this info, you can do this through command line arguments. The format is:
-
-> `./Combat [# in Group 1] [# in Group 2] [character files]`
-
-Enter Group 1's files first followed by Group 2's. The format of these character files must be:
+After you've made the program (`make Combat`), you can run it with no arguments (`./Combat`) and
+it will ask you to enter information for each character manually. Alternatively, you can use files
+containing the character information to skip having to enter their info each time you run the program.
+The format of these character files must be:
 
 > \[character name]  
 > \[class] \[level]  
@@ -23,7 +20,15 @@ Enter Group 1's files first followed by Group 2's. The format of these character
 > \[HP] \[AC] \[speed]  
 > \[weapon]
 
-Using this method allows you to skip having to enter each character's info each time you run the program.
+There are example character files provided in this repository as a model. To use these files in the
+program input, you can use command line arguments in the following format:
+
+> `./Combat [# in Group 1] [# in Group 2] [character files]`
+
+Enter Group 1's files first followed by Group 2's. For example, a 1v1 using the two example character
+files would be:
+
+> `./Combat 1 1 wizard.txt monk.txt`
 
 ## Not yet Implemented Features
 - Subclasses
